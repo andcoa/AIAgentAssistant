@@ -23,8 +23,11 @@ Design and deploy an AI agent within n8n that listens for incoming chat messages
 
 ![image](https://github.com/user-attachments/assets/ae222c3d-d9e8-4a21-adb2-d11160adaac7)
 
-1. **Trigger Chat Listener**: Start workflow when a chat message is received by the agent (via n8n chat input).  
-2. **Initialize AI Agent**: Agent receives the message, uses GPT 4.1 Mini as the chat model, and accesses memory for context.  
+1. **Trigger Chat Listener**: Start workflow when a chat message is received by the agent (via n8n chat input). 
+2. **Initialize AI Agent**: Agent receives the message, uses GPT 4.1 Mini as the chat model, and accesses memory for context.
+
+![image](https://github.com/user-attachments/assets/66c5b65d-5af5-4f42-be3d-b64f57c56601)
+
 3. **Query Contacts Database**: AI Agent queries Google Sheets to look up user information (e.g., email address).
 
 ![image](https://github.com/user-attachments/assets/a2587d62-3384-4ca7-add9-0e4231dc3e50)
